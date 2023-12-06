@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Stile generale per il contenitore principale */
+.container {
+  max-width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Stile per il calendario */
+.react-calendar {
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Stile per i giorni del calendario */
+.react-calendar__tile {
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Stile per il giorno selezionato */
+.react-calendar__tile--active {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+/* Stile per il giorno corrente */
+.react-calendar__tile--now {
+  background-color: #f0f0f0;
+}
+
+/* Stile per il pulsante del calendario */
+.react-calendar__navigation__arrow {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+/* Stile per la modale */
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  width: 300px; /* Personalizza la larghezza in base alle tue esigenze */
+  margin: 10px auto;
+}
+
+/* Stile per gli input nella modale */
+.modal input, .modal textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Stile per i pulsanti nella modale */
+.modal button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px; /* Aggiungi uno spazio tra i bottoni */
+}
+
+
+
+/* Stile per la lista degli appuntamenti */
+.appointments-list {
+  list-style: none;
+  padding: 0;
+  max-width: 100%;
+}
+
+/* Stile per gli elementi della lista degli appuntamenti */
+.appointment-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+/* CSS per centrare il contenuto orizzontalmente */
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centro verticalmente */
+  align-items: center; /* Centro orizzontalmente */
+  text-align: center;
+}
+
+/* Stile per la tabella */
+table {
+  
+  width: 80%; /* Imposta la larghezza della tabella come preferisci */
+  max-width: 800px; /* Imposta una larghezza massima per la tabella */
+  border-collapse: collapse;
+  margin-top: 20px; /* Aggiungi un margine superiore per spaziare la tabella dal titolo */
+}
+
+
+/* Stili per il select */
+select {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Stili per le opzioni del select */
+select option {
+  font-size: 16px;
+  background-color: white;
+  color: #333;
+}
+
+
+
+
+
+
+
