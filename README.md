@@ -16,6 +16,6 @@ Applicazione semplice in react nativo per prendere un appuntamento e tenerne tra
 2. Installa le dipendenze del frontend:
    
    ```bash
-  npm install
-  ```
+   npm install
+   ```
  
