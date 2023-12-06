@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Connessione a MongoDB
 // inserisci la stringa di connessione database mongo db
-mongoose.connect('mongodb+srv://personale070:porcodio91@teststripe.vawq30w.mongodb.net/?', {
+mongoose.connect('INSERISCI STRINGA MONGO DB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
