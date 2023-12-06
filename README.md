@@ -1,5 +1,6 @@
 # App-Appointments
 
+![MongoDB](https://img.shields.io/badge/-MongoDB-green) ![Express](https://img.shields.io/badge/-Express-blue) ![React](https://img.shields.io/badge/-React-blue) ![Node.js](https://img.shields.io/badge/-Node.js-green)
 
 ### The Appointments App is an application that allows users to schedule appointments by selecting a time slot and saving the appointment in a MongoDB database. Its key features include:
 
