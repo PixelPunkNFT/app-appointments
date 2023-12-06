@@ -35,10 +35,9 @@ Applicazione semplice in react nativo per prendere un appuntamento e tenerne tra
 
    ```bash
    npm install
-
    ```
 
-   3. Run
+3. Run
 
    ```bash
    nodemon
