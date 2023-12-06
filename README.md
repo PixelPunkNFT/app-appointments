@@ -1,7 +1,7 @@
 # App-Appointments
 
 
-The Appointments App is an application that allows users to schedule appointments by selecting a time slot and saving the appointment in a MongoDB database. Its key features include:
+##The Appointments App is an application that allows users to schedule appointments by selecting a time slot and saving the appointment in a MongoDB database. Its key features include:
 
 ### 1. Appointment Booking: Users can choose an available date and time slot, provide the client's name and a note to book an appointment. The appointment is then saved in the database.
 
@@ -9,7 +9,7 @@ The Appointments App is an application that allows users to schedule appointment
 
 ### 3. Availability Check: The app checks if an appointment has already been booked for the same date and time. If an appointment exists for the same date and time, the user is alerted and cannot book the same slot again.
 
-The app is designed to simplify appointment management and ensure that duplicate bookings for the same time slot are avoided. We hope the app proves to be helpful for your appointment management needs!
+##The app is designed to simplify appointment management and ensure that duplicate bookings for the same time slot are avoided. We hope the app proves to be helpful for your appointment management needs!
 
 
 # Appuntamenti App
