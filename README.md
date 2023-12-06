@@ -12,6 +12,8 @@
 
  The app is designed to simplify appointment management and ensure that duplicate bookings for the same time slot are avoided. We hope the app proves to be helpful for your appointment management needs!
 
+![Immagine 2023-12-06 160651](https://github.com/PixelPunkNFT/app-appointments/assets/81959327/b5d1535c-ae1e-4752-84a8-ba411b1a67ac)
+
 
 ## Installation
 
